@@ -1,0 +1,16 @@
+{
+  "name": "@shinonomekazan/contents",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shinonomkazan Co., Ltd.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.40"
+  }
+}
