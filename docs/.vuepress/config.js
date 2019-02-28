@@ -25,5 +25,10 @@ module.exports = {
 			},
 		],
 	},
+	plugins: [
+		["@vuepress/google-analytics", {
+			ga: 'UA-134995557-3'
+		}],
+	],
 	// base: "https://contents.shinonomekazan.com/",
 }
