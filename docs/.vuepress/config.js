@@ -36,6 +36,12 @@ enable_page_level_ads: true
 				children: [
 					{title: "株式会社東雲火山を創業しました", path: "/sougyou.html"},
 					{title: "テスト", path: "/test.html"},
+					{title: "TIPS", children: [
+						{
+							title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
+							path: "/tips/pdf-sign-by-mynumber-card",
+						}
+					]}
 				],
 			},
 		],
