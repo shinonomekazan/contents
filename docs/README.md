@@ -11,6 +11,7 @@ footer: Copyright © 2019 Shinonomekazan Co., Ltd.
 
 ## 記事など
 
+- [個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法](/tips/pdf-sign-by-mynumber-card.html)
 - [株式会社東雲火山を創業しました](/sougyou.html)
 - [テスト](/test.html)
 
