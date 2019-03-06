@@ -15,13 +15,19 @@ module.exports = {
 google_ad_client: "ca-pub-4323006201726937",
 enable_page_level_ads: true
 });`,
-		]
+		],
 	],
 	themeConfig: {
 		nav: [
-			{ text: "リンク集", items: [
-				{ text: "株式会社東雲火山", link: "https://shinonomekazan.com" },
-			]},
+			{
+				text: "リンク集",
+				items: [
+					{
+						text: "株式会社東雲火山",
+						link: "https://shinonomekazan.com"
+					},
+				],
+			},
 		],
 		lastUpdated: "最終更新",
 		serviceWorker: {
@@ -34,22 +40,46 @@ enable_page_level_ads: true
 			{
 				title: "記事",
 				children: [
-					{title: "株式会社東雲火山を創業しました", path: "/sougyou.html"},
-					{title: "テスト", path: "/test.html"},
-					{title: "TIPS", children: [
-						{
-							title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
-							path: "/tips/pdf-sign-by-mynumber-card",
-						}
-					]}
+					{
+						title: "株式会社東雲火山を創業しました",
+						path: "/sougyou.html",
+					},
+					{
+						title: "テスト",
+						path: "/test.html",
+					},
+					{
+						title: "TIPS",
+						children: [
+							{
+								title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
+								path: "/tips/pdf-sign-by-mynumber-card",
+							},
+						],
+					},
 				],
 			},
 		],
 	},
 	plugins: [
-		["@vuepress/google-analytics", {
-			ga: 'UA-134995557-3'
-		}],
+		[
+			"@vuepress/google-analytics",
+			{
+				ga: 'UA-134995557-3',
+			},
+		],
+		[
+			"sitemap",
+			{
+				hostname: "https://contents.shinonomekazan.com",
+			},
+		],
+		[
+			"feed",
+			{
+				canonical_base: "https://contents.shinonomekazan.com",
+			},
+		]
 	],
 	// base: "https://contents.shinonomekazan.com/",
 }

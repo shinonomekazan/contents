@@ -4,7 +4,7 @@ lang: ja
 sidebarDepth: 3
 meta:
   - name: description
-    content: 個人番号カード（マイナンバーカード）で電子署名をする際、実はAcrobat Readerを使ってもできるので、その方法を解説します。
+    content: 個人番号カード（マイナンバーカード）で、Acrobat Readerを使って電子署名をする方法を解説します。電子定款の作成などに使える方法です。
   - name: keywords
     content: 東雲火山 マイナンバーカード 個人番号カード 電子署名 電子定款 無料
 ---

@@ -12,6 +12,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.40",
-    "vuepress": "^1.0.0-alpha.40"
+    "vuepress": "^1.0.0-alpha.42",
+    "vuepress-plugin-feed": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.1.1"
   }
 }
