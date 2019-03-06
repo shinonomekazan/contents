@@ -74,12 +74,6 @@ enable_page_level_ads: true
 				hostname: "https://contents.shinonomekazan.com",
 			},
 		],
-		[
-			"feed",
-			{
-				canonical_base: "https://contents.shinonomekazan.com",
-			},
-		]
 	],
 	// base: "https://contents.shinonomekazan.com/",
 }
