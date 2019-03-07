@@ -3,6 +3,9 @@ home: true
 title: 東雲火山の山麓
 lang: ja
 footer: Copyright © 2019 Shinonomekazan Co., Ltd.
+meta:
+  - name: msvalidate.01
+    content: A2576A9346E57108AB12412C7E14CC72
 ---
 
 ここは、株式会社東雲火山の関係者などが適時記事等を書く場所です。
