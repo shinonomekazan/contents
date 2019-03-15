@@ -55,6 +55,10 @@ enable_page_level_ads: true
 								title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
 								path: "/tips/pdf-sign-by-mynumber-card",
 							},
+							{
+								title: "WSL + node.js環境のススメ",
+								path: "/tips/wsl-with-node",
+							},
 						],
 					},
 				],
