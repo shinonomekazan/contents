@@ -101,7 +101,7 @@ WSL上ではシンボリックリンクになっているものが、Windows上�
 
 [Git](https://git-scm.com/)もWSL上に移動しておくことをお勧めします。
 
-node.js以外でもそれなりに合うトラブルとして、シンボリックリンクやパーミッションなどの問題がありますが、WSLに移しておけばこういった問題を回避できます。・
+node.js以外でもそれなりに合うトラブルとして、シンボリックリンクやパーミッションなどの問題がありますが、WSLに移しておけばこういった問題を回避できます。
 
 [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)等、Visual Studio Code上から扱えるGit系のツールも優秀なものが多いのですが、Gitのpull, commit, pushはWSL上で行い、履歴や差分等の確認はツールを使う辺りがお勧めです。
 
