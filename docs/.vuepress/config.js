@@ -26,6 +26,10 @@ enable_page_level_ads: true
 						text: "株式会社東雲火山",
 						link: "https://shinonomekazan.com"
 					},
+					{
+						text: "GitHub",
+						link: "https://github.com/shinonomekazan/contents"
+					},
 				],
 			},
 		],
@@ -38,8 +42,12 @@ enable_page_level_ads: true
 		},
 		sidebar: [
 			{
-				title: "記事",
+				title: "会社に関する記事",
 				children: [
+					{
+						title: "創業前後のチェックリストと東雲火山の現在地",
+						path: "/checklist.html",
+					},
 					{
 						title: "株式会社東雲火山を創業しました",
 						path: "/sougyou.html",
@@ -48,18 +56,18 @@ enable_page_level_ads: true
 						title: "テスト",
 						path: "/test.html",
 					},
+				],
+			},
+			{
+				title: "TIPS",
+				children: [
 					{
-						title: "TIPS",
-						children: [
-							{
-								title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
-								path: "/tips/pdf-sign-by-mynumber-card",
-							},
-							{
-								title: "WSL + node.js環境のススメ",
-								path: "/tips/wsl-with-node",
-							},
-						],
+						title: "個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法",
+						path: "/tips/pdf-sign-by-mynumber-card",
+					},
+					{
+						title: "WSL + node.js環境のススメ",
+						path: "/tips/wsl-with-node",
 					},
 				],
 			},
@@ -79,5 +87,13 @@ enable_page_level_ads: true
 			},
 		],
 	],
+	markdown: {
+		lineNumbers: true,
+		extendMarkdown: md => {
+			md.use(require("markdown-it-task-lists"));
+		},
+		plugins: [
+		],
+	},
 	// base: "https://contents.shinonomekazan.com/",
 }
