@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shinonomkazan Co., Ltd.",
@@ -14,5 +15,8 @@
     "@vuepress/plugin-google-analytics": "^1.0.1",
     "vuepress": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.1.2"
+  },
+  "devDependencies": {
+    "markdown-it-task-lists": "^2.1.1"
   }
 }
