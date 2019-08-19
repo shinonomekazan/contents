@@ -7,16 +7,18 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "textlint -c .textlintrc ./docs"
   },
   "author": "Shinonomkazan Co., Ltd.",
   "license": "UNLICENSED",
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.2",
-    "vuepress": "^1.0.2",
+    "@vuepress/plugin-google-analytics": "^1.0.3",
+    "vuepress": "^1.0.3",
     "vuepress-plugin-sitemap": "^2.1.2"
   },
   "devDependencies": {
-    "markdown-it-task-lists": "^2.1.1"
+    "markdown-it-task-lists": "^2.1.1",
+    "textlint": "^11.3.1",
+    "textlint-rule-preset-jtf-style": "^2.3.3"
   }
 }
