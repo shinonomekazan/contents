@@ -3,9 +3,9 @@ title: 創業前後のチェックリストと東雲火山の現在地
 lang: ja
 meta:
   - name: description
-	content: 創業後にやる事、やった事、やりたい事を羅列した記事です
+    content: 創業後にやる事、やった事、やりたい事を羅列した記事です
   - name: keywords
-	content: 東雲火山 チェックリスト 創業 起業
+    content: 東雲火山 チェックリスト 創業 起業
 ---
 
 # 創業前後のチェックリストと東雲火山の現在地
