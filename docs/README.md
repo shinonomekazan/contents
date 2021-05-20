@@ -11,6 +11,7 @@ footer: Copyright © 2019 Shinonomekazan Co., Ltd.
 
 ## 記事など
 
+- [東雲火山ベトナムを設立しました](/shinonomekazan-vietnam.html)
 - [創業前後のチェックリストと東雲火山の現在地](/checklist.html)
 - [WSL + node.js環境のススメ](/tips/wsl-with-node.html)
 - [個人番号カード（マイナンバーカード）の電子署名をAcrobat Readerを使って無料でする方法](/tips/pdf-sign-by-mynumber-card.html)
