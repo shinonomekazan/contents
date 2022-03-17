@@ -77,7 +77,7 @@ enable_page_level_ads: true
 		[
 			"@vuepress/google-analytics",
 			{
-				ga: 'UA-134995557-3',
+				ga: 'G-TFD1CH12X3',
 			},
 		],
 		[
