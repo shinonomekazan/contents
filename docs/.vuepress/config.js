@@ -16,6 +16,20 @@ google_ad_client: "ca-pub-5067037356613716",
 enable_page_level_ads: true
 });`,
 		],
+		[
+			"script",
+			{
+				async: true,
+				src: "https://www.googletagmanager.com/gtag/js?id=G-TFD1CH12X3",
+			},
+		],
+		[
+			"script",
+			{},
+			[
+				"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-TFD1CH12X3');",
+			],
+		],
 	],
 	themeConfig: {
 		nav: [
@@ -74,12 +88,6 @@ enable_page_level_ads: true
 		],
 	},
 	plugins: [
-		[
-			"@vuepress/google-analytics",
-			{
-				ga: 'G-TFD1CH12X3',
-			},
-		],
 		[
 			"sitemap",
 			{
