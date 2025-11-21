@@ -56,6 +56,15 @@ enable_page_level_ads: true
 		},
 		sidebar: [
 			{
+				title: "開発に関する記事",
+				children: [
+					{
+						title: "JACKEYES 7月のトロイメライリリースに寄せて",
+						path: "/jackeyes.html",
+					},
+				],
+			},
+			{
 				title: "会社に関する記事",
 				children: [
 					{
