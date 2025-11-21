@@ -11,6 +11,8 @@ footer: Copyright © 2019 Shinonomekazan Co., Ltd.
 
 ## 記事など
 
+- [Scratchにトライしてみた顛末記　「操作に慣れる」](/works/scratch-2.html)
+- [Scratchにトライしてみた顛末記　序章](/works/scratch-1.html)
 - [東雲火山ベトナムを設立しました](/shinonomekazan-vietnam.html)
 - [創業前後のチェックリストと東雲火山の現在地](/checklist.html)
 - [WSL + node.js環境のススメ](/tips/wsl-with-node.html)
