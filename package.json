@@ -14,12 +14,12 @@
   "license": "UNLICENSED",
   "dependencies": {
     "lodash.throttle": "^4.1.1",
-    "vuepress": "^1.9.7",
+    "vuepress": "^1.9.10",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
     "markdown-it-task-lists": "^2.1.1",
-    "textlint": "^12.1.1",
-    "textlint-rule-preset-jtf-style": "^2.3.12"
+    "textlint": "^15.4.0",
+    "textlint-rule-preset-jtf-style": "^3.0.3"
   }
 }
