@@ -62,6 +62,10 @@ enable_page_level_ads: true
 						title: "JACKEYES 7月のトロイメライリリースに寄せて",
 						path: "/jackeyes.html",
 					},
+					{
+						title: "家族向けのTODO管理サイト",
+						path: "/family-todo.html",
+					},
 				],
 			},
 			{
